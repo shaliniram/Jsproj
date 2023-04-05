@@ -1,0 +1,34 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+h2{
+  font-weight: 400;
+  color: teal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Serif Pro', serif;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+  width: 300px;
+}
+
+.form-group{
+  display: flex;
+  width: 100%;
+  margin:20px 5px;
+  gap:10px;
+}
